@@ -1,17 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from './components/pages/Home';
+import AboutMe from './components/pages/AboutMe';
+import Hikes from './components/pages/Hikes';
 
 function App() {
   return (
     <>
-    <Router>
+    <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' exact />
+        <Route exact path="/" element={<Home/>}></Route>
+        <Route exact path="/Hikes" element={<Hikes/>}></Route>
+        <Route exact path="/AboutMe" element={<AboutMe/>}></Route>
       </Routes>
-    </Router>
+    </BrowserRouter>
       
     </>
   );

@@ -126,16 +126,16 @@
     }
   
     .navbar-logo {
+      
       position: absolute;
-      top: 0;
-      left: 0;
+      top:-50%;
+      left:0%;
       transform: translate(25%, 50%);
     }
 
     .navbar-logo:hover {
-      background-color: #fff;
-      color: #242424;
-      border-radius: 0;
+      border-bottom: 4px solid #fff;
+      transition: all 0.2s ease-out;
     }
   
     .menu-icon {

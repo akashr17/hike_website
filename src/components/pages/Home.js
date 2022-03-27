@@ -8,18 +8,19 @@ import background from './bg.jpg'
 function Home() {
   return (
     <div className='Wrapper'>
-        <h1 className='Header'>
-            Best of Beautiful BC
-        </h1>
         
+        <h1 className='Header'>
+          Best of Beautiful BC
+        </h1>
         <p className='BodyText'>
             Come explore the beautiful hikes in the lower-mainland of British Columbia. To get started on your adventure, hit the button below!
         </p>
-        
-        <p className = 'BodyText2'> <Link to ="/Hikes"><button className='Button'>
-            {"View Hikes"}
-        </button> </Link>
-        </p>
+        <div className='PicWrap'>
+          <p className = 'BodyText2'> <Link to ="/Hikes"><button className='Button'>
+              {"View Hikes"}
+            </button> </Link>
+          </p>
+        </div>
     </div>
   );
 }

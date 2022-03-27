@@ -1,30 +1,32 @@
-/* .Wrapper{
-    padding: 10rem 10rem 10rem 10rem;
-    color: #FFF;
-    text-shadow: 0px 4px 4px rgba(10, 10, 10, 0.25);
-    display: flex; 
-    justify-content: center;
-    position: fixed;
-    align-items: center;
+/* 
+  .Wrappe{
+    padding: 5rem 5rem 5rem 5rem;
+    display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-.Header {
-    padding: 2rem 4rem 4rem 4rem;
+    width: 100%;
+  }
+  
+  .Header {
+    padding: 2rem 2rem 2rem 2rem;
     font-size: 3rem;
-}
-.BodyText {
-    padding: 1rem 2rem 1rem 2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .BodyText {
+    padding: 2rem 2rem 2rem 2rem;
     font-size: 1.5rem;
     text-align: center;
-}
-.BodyText2 {
+    width: 100%;
+  }
+  .BodyText2 {
     padding: 3rem 5rem 5rem 5rem;
     font-size: 1.5rem;
     text-align: center;
-}
-
-/* .Container {
+    width: 100%;
+  } */
+  
+  /* .Container {
   font-family: 'Poppins', sans-serif;
   height: 100vh;
   width: 100%;
@@ -35,9 +37,9 @@
   align-items: center;
   flex-wrap: wrap;
   
-} */
-
-/* .Button {
+  } */
+  
+  /* .Button {
   font-size: 1.5rem;
   background: #220d0d;
   border: none;
@@ -47,9 +49,66 @@
   box-shadow: 0px 13px 24px -7px rgba(0, 0, 0, 0.25);
   transition: all 0.2s ease-in-out;
   margin-left: 0rem;
-  cursor: pointer; 
-} 
-.Button:hover {
+  cursor: pointer;
+  
+  } */
+  /* .Button:hover {
     transform: scale(1.1);
-}
- */
+  }
+  
+  .PicWrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .Picture {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 2rem 0rem 0rem 0rem;
+    flex-wrap: wrap;
+    
+  }
+  
+  .Picture-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 2rem 0rem 0rem 0rem;
+    flex-wrap: wrap;
+    transform: scale(1,0.5);
+    }
+  
+    @media screen and (max-width: 960px) {
+      .Wrapper{
+        padding: 5rem 0rem 5rem 0rem;
+        color: #FFF;
+        text-shadow: 0px 4px 4px rgba(10, 10, 10, 0.25);
+        display: flex; 
+        justify-content: center;
+        position: fixed;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      
+      .Header {
+        padding: 2rem 1rem;
+        font-size: 3rem;
+      }
+      .BodyText {
+        padding: 2rem 2rem 2rem 2rem;
+        font-size: 1.5rem;
+        text-align: center;
+      }
+      .BodyText2 {
+        padding: 3rem 5rem 5rem 5rem;
+        font-size: 1.5rem;
+        text-align: center;
+      }
+      
+    } */

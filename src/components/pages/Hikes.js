@@ -8,8 +8,6 @@ function Hikes() {
   return (
     <div className='Wrap'>
       <div className='Pic'>
-        
-          <img src={dog} />
           <img src={chief} />
           <img src={chief} />
           <img src={chief} />

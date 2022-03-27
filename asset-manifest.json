@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.29b2e7f4.css",
-    "main.js": "/static/js/main.d2d3a811.js",
-    "static/js/787.c04d7b29.chunk.js": "/static/js/787.c04d7b29.chunk.js",
-    "static/media/chief.JPG": "/static/media/chief.701259fb217c23cfe170.JPG",
-    "static/media/dog.HEIC": "/static/media/dog.6b407e05b6027cb9ab80.HEIC",
-    "static/media/bg.jpg": "/static/media/bg.0c1023b92e9e045b9098.jpg",
-    "static/media/pic.jpg": "/static/media/pic.37ad0099067b3dee6d98.jpg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.29b2e7f4.css.map": "/static/css/main.29b2e7f4.css.map",
-    "main.d2d3a811.js.map": "/static/js/main.d2d3a811.js.map",
-    "787.c04d7b29.chunk.js.map": "/static/js/787.c04d7b29.chunk.js.map"
+    "main.css": "/hike_website/static/css/main.695c06cd.css",
+    "main.js": "/hike_website/static/js/main.1ddfbf93.js",
+    "static/js/787.c04d7b29.chunk.js": "/hike_website/static/js/787.c04d7b29.chunk.js",
+    "static/media/chief.JPG": "/hike_website/static/media/chief.701259fb217c23cfe170.JPG",
+    "static/media/dog.HEIC": "/hike_website/static/media/dog.6b407e05b6027cb9ab80.HEIC",
+    "static/media/bg.jpg": "/hike_website/static/media/bg.0c1023b92e9e045b9098.jpg",
+    "static/media/pic.jpg": "/hike_website/static/media/pic.37ad0099067b3dee6d98.jpg",
+    "static/media/logo.svg": "/hike_website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/hike_website/index.html",
+    "main.695c06cd.css.map": "/hike_website/static/css/main.695c06cd.css.map",
+    "main.1ddfbf93.js.map": "/hike_website/static/js/main.1ddfbf93.js.map",
+    "787.c04d7b29.chunk.js.map": "/hike_website/static/js/787.c04d7b29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29b2e7f4.css",
-    "static/js/main.d2d3a811.js"
+    "static/css/main.695c06cd.css",
+    "static/js/main.1ddfbf93.js"
   ]
 }

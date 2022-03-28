@@ -1,9 +1,16 @@
 
   .Wrap{
     padding: 10px, 10px,  10px, 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem;
   }
   
-  
+  .Header{
+    color: #FFF;
+  text-shadow: 0px 4px 4px rgba(10, 10, 10, 0.25);
+  }
   /* .Container {
   font-family: 'Poppins', sans-serif;
   height: 100vh;
@@ -43,21 +50,39 @@
   
   
   .Pic {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 1rem;
-    
+    position:relative;
+    overflow: hidden;
   }
   .Pic img{
-    /* margin-top:20px; 
-    margin-bottom:20px;  */
     width: 50vw; 
-    max-width: 600px;
+    max-width: 500px;
     margin: 1rem;
   }
-  .Pic img:hover {
-    transform: scale(1.05);
-    border: 8px solid rgb(243, 243, 243);
+  .Pic:hover img{
+    transform: scale(1.01);
+    filter: blur(5px)
     }
+  .Pic p{
+    position: absolute;
+    inset:0;
+    background: rgba(209, 190, 190, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .Pic img,p {
+    transition: 300ms ease-in-out;
+  }
+  .Pic:hover p{
+    opacity: 1;
+  }
+ 
+  @media screen and (max-width: 960px) {
+  
+    .Pic p {
+      font-size: 1.5rem;
+    }
+  }

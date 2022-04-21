@@ -1,4 +1,4 @@
-#View project here: https://akashr17.github.io/hike_website/
+# View project here: https://akashr17.github.io/hike_website/
 
 # Getting Started with Create React App
 
